@@ -1,4 +1,4 @@
-package com.factoryPattern;
+package CreationalDesignPattern.Factory;
 
 public class Dog implements Animal {
 

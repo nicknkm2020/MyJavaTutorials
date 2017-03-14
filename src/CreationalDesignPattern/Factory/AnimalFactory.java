@@ -1,4 +1,4 @@
-package com.factoryPattern;
+package CreationalDesignPattern.Factory;
 
 public class AnimalFactory {
 	public Animal getAnimal(String animalType) {
