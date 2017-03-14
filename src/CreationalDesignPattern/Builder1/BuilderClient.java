@@ -1,4 +1,4 @@
-package com.builderDesignPattern;
+package CreationalDesignPattern.Builder1;
 
 /*
  *  Customer who is in hotel and customer can place order to 

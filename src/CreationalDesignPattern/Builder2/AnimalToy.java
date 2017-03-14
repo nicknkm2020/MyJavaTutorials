@@ -1,4 +1,4 @@
-package com.buiderDesignPattern2;
+package CreationalDesignPattern.Builder2;
 
 public class AnimalToy {
 

@@ -1,10 +1,11 @@
-package com.builderDesignPattern;
+package CreationalDesignPattern.Builder1;
 
 /* 
- * TeaBuilder creates Tea by mixing the components[water,milk,sugar,tea powder]. 
- * It implements BeverageBuilder which is bluePrint for creating beverage objects.
+ * CoffeeBuilder creates coffee by mixing the components[water,milk,sugar,coffee powder]. 
+ * CoffeeBuilder implements BeverageBuilder which is bluePrint for creating beverage objects.
  * */
-public class TeaBuider extends BeverageBuilder {
+public class CoffeeBuilder extends BeverageBuilder {
+
 	@Override
 	Beverage createBeverage() {
 		return new Beverage();
@@ -30,14 +31,14 @@ public class TeaBuider extends BeverageBuilder {
 
 	@Override
 	void setPowderQuantity() {
-		System.out.println("Step 4 : Adding 9 Grams of tea powder");
+		System.out.println("Step 4 : Adding 9 Grams of coffee powder");
 		getBeverage().setPowderQuantity(9);
 	}
 
 	@Override
 	void setBeverageType() {
-		System.out.println("Tea");
-		getBeverage().setBeverageName("Tea");
+		System.out.println("Coffee");
+		getBeverage().setBeverageName("Coffee");
 	}
 
 }
