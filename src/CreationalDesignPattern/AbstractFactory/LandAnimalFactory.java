@@ -1,4 +1,4 @@
-package com.abstractFactoryDesignPattern;
+package CreationalDesignPattern.AbstractFactory;
 
 public class LandAnimalFactory extends AnimalFactory {
 	public Animal getAnimal(String animalType) {

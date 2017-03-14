@@ -1,4 +1,4 @@
-package com.abstractFactoryDesignPattern;
+package CreationalDesignPattern.AbstractFactory;
 
 public class Shark implements Animal {
 	@Override
