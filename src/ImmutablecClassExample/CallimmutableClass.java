@@ -1,4 +1,4 @@
-package com.immutableclassdemo;
+package ImmutablecClassExample;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.immutableclassdemo;
+package ImmutablecClassExample;
 
 // 1. Create a class with final keyword
 // so that no other class can extend this

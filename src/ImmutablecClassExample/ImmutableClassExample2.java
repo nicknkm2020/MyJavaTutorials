@@ -1,4 +1,4 @@
-package com.immutableclassdemo;
+package ImmutablecClassExample;
 
 // http://howtodoinjava.com/core-java/related-concepts/how-to-make-a-java-class-immutable/
 
